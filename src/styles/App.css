@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.app-header {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.app-header__text {
+  font-size: min(6vmin, 2em);
+  padding-bottom: 8px;
+}
+
+.app-main {
+  background-image: url(../svg/header-bg.svg);
+  background-repeat: no-repeat;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-container {
+  background-color: #1f1c1ccf;
+  height: 500px;
+  width: 1000px;
+  border-radius: 8px;
+  box-shadow: -1px 0px 18px 6px #9f76e0;
+}

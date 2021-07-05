@@ -1,0 +1,49 @@
+.test-paragraph {
+  color: wheat;
+  margin: 3vmin 6vmin;
+  line-height: 2rem;
+  font-size: 20px;
+  background-color: #171414;
+  padding: 22px;
+  border-radius: 12px;
+}
+
+.test-option__groupings {
+  display: flex;
+  color: mintcream;
+  margin: 3vmin 6vmin;
+  line-height: 2rem;
+  font-size: 20px;
+  background-color: #171414;
+  padding: 22px;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.test-option__input {
+  width: 30vmin;
+  height: 48px;
+  border: 1px solid #646d68d9;
+  background-color: black;
+  outline-color: #9f76e0;
+  color: white;
+  font-size: 22px;
+  caret-color: mintcream;
+}
+
+.test-word {
+  padding: 6px 4px;
+  transition: background-color 0.4s;
+}
+
+.word--current {
+  background-color: #444444;
+}
+
+.word--success {
+  color: #00ff00;
+}
+
+.word--failure {
+  color: red;
+}
